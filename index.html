@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Assessment Questionnaire</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .divider {
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Security Assessment Questionnaire</h1>
+    <div class="container">
+        <form>
+            <div class="question"><label>1. Is there a formal information security policy? <input type="radio" name="q1" value="Yes"> Yes <input type="radio" name="q1" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>2. Are employees trained on security awareness? <input type="radio" name="q2" value="Yes"> Yes <input type="radio" name="q2" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>3. Is access to sensitive data restricted? <input type="radio" name="q3" value="Yes"> Yes <input type="radio" name="q3" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>4. Are regular security audits conducted? <input type="radio" name="q4" value="Yes"> Yes <input type="radio" name="q4" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>5. Is there a process for reporting security incidents? <input type="radio" name="q5" value="Yes"> Yes <input type="radio" name="q5" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>6. Are firewalls used to protect the network? <input type="radio" name="q6" value="Yes"> Yes <input type="radio" name="q6" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>7. Is there a data backup and recovery plan? <input type="radio" name="q7" value="Yes"> Yes <input type="radio" name="q7" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>8. Are systems updated regularly with security patches? <input type="radio" name="q8" value="Yes"> Yes <input type="radio" name="q8" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>9. Is there a policy for remote access? <input type="radio" name="q9" value="Yes"> Yes <input type="radio" name="q9" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>10. Are data encryption measures in place? <input type="radio" name="q10" value="Yes"> Yes <input type="radio" name="q10" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>11. Is there a clear policy for incident management? <input type="radio" name="q11" value="Yes"> Yes <input type="radio" name="q11" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>12. Are security roles and responsibilities defined? <input type="radio" name="q12" value="Yes"> Yes <input type="radio" name="q12" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>13. Is access to sensitive information logged? <input type="radio" name="q13" value="Yes"> Yes <input type="radio" name="q13" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>14. Are employees aware of social engineering threats? <input type="radio" name="q14" value="Yes"> Yes <input type="radio" name="q14" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>15. Are mobile devices secured with passwords? <input type="radio" name="q15" value="Yes"> Yes <input type="radio" name="q15" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>16. Is there a process for managing third-party access? <input type="radio" name="q16" value="Yes"> Yes <input type="radio" name="q16" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>17. Are antivirus programs used and updated? <input type="radio" name="q17" value="Yes"> Yes <input type="radio" name="q17" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>18. Is there a policy for handling sensitive information? <input type="radio" name="q18" value="Yes"> Yes <input type="radio" name="q18" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>19. Are there physical security controls in place? <input type="radio" name="q19" value="Yes"> Yes <input type="radio" name="q19" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>20. Is there a policy for the use of personal devices? <input type="radio" name="q20" value="Yes"> Yes <input type="radio" name="q20" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>21. Are security incidents reviewed for lessons learned? <input type="radio" name="q21" value="Yes"> Yes <input type="radio" name="q21" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>22. Is there a procedure for data classification? <input type="radio" name="q22" value="Yes"> Yes <input type="radio" name="q22" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>23. Are access controls regularly reviewed? <input type="radio" name="q23" value="Yes"> Yes <input type="radio" name="q23" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>24. Is there a business continuity plan in place? <input type="radio" name="q24" value="Yes"> Yes <input type="radio" name="q24" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>25. Are there mechanisms to detect intrusions? <input type="radio" name="q25" value="Yes"> Yes <input type="radio" name="q25" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>26. Is there a policy for software installation? <input type="radio" name="q26" value="Yes"> Yes <input type="radio" name="q26" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>27. Are passwords required to be changed regularly? <input type="radio" name="q27" value="Yes"> Yes <input type="radio" name="q27" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>28. Are there measures to protect against malware? <input type="radio" name="q28" value="Yes"> Yes <input type="radio" name="q28" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>29. Is there an acceptable use policy for IT resources? <input type="radio" name="q29" value="Yes"> Yes <input type="radio" name="q29" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>30. Are third-party vendors assessed for security? <input type="radio" name="q30" value="Yes"> Yes <input type="radio" name="q30" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>31. Are there guidelines for secure coding practices? <input type="radio" name="q31" value="Yes"> Yes <input type="radio" name="q31" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>32. Is there a process for user account management? <input type="radio" name="q32" value="Yes"> Yes <input type="radio" name="q32" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>33. Are there policies regarding the use of cloud services? <input type="radio" name="q33" value="Yes"> Yes <input type="radio" name="q33" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>34. Is there a security team or designated officer? <input type="radio" name="q34" value="Yes"> Yes <input type="radio" name="q34" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>35. Are security updates communicated to staff? <input type="radio" name="q35" value="Yes"> Yes <input type="radio" name="q35" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>36. Are there incident response drills conducted? <input type="radio" name="q36" value="Yes"> Yes <input type="radio" name="q36" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>37. Are third-party software vendors vetted? <input type="radio" name="q37" value="Yes"> Yes <input type="radio" name="q37" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>38. Is there a process for managing security vulnerabilities? <input type="radio" name="q38" value="Yes"> Yes <input type="radio" name="q38" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>39. Are security incidents documented and reported? <input type="radio" name="q39" value="Yes"> Yes <input type="radio" name="q39" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>40. Is there a dedicated budget for security initiatives? <input type="radio" name="q40" value="Yes"> Yes <input type="radio" name="q40" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>41. Are access permissions based on the principle of least privilege? <input type="radio" name="q41" value="Yes"> Yes <input type="radio" name="q41" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>42. Are network segments used to enhance security? <input type="radio" name="q42" value="Yes"> Yes <input type="radio" name="q42" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>43. Is there a policy for data retention and disposal? <input type="radio" name="q43" value="Yes"> Yes <input type="radio" name="q43" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>44. Are security metrics tracked and reported? <input type="radio" name="q44" value="Yes"> Yes <input type="radio" name="q44" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>45. Are secure communication channels used? <input type="radio" name="q45" value="Yes"> Yes <input type="radio" name="q45" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>46. Is there a designated contact for security concerns? <input type="radio" name="q46" value="Yes"> Yes <input type="radio" name="q46" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>47. Are logs regularly reviewed for suspicious activity? <input type="radio" name="q47" value="Yes"> Yes <input type="radio" name="q47" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>48. Is there a policy for managing email security? <input type="radio" name="q48" value="Yes"> Yes <input type="radio" name="q48" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>49. Are there safeguards for critical infrastructure? <input type="radio" name="q49" value="Yes"> Yes <input type="radio" name="q49" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>50. Is there an annual review of the security policy? <input type="radio" name="q50" value="Yes"> Yes <input type="radio" name="q50" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>51. Are there guidelines for data encryption at rest? <input type="radio" name="q51" value="Yes"> Yes <input type="radio" name="q51" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>52. Are there procedures for secure software development? <input type="radio" name="q52" value="Yes"> Yes <input type="radio" name="q52" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>53. Is there a process for identifying critical assets? <input type="radio" name="q53" value="Yes"> Yes <input type="radio" name="q53" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>54. Are employees encouraged to report security issues? <input type="radio" name="q54" value="Yes"> Yes <input type="radio" name="q54" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>55. Is there a procedure for risk assessments? <input type="radio" name="q55" value="Yes"> Yes <input type="radio" name="q55" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>56. Are there measures to protect against insider threats? <input type="radio" name="q56" value="Yes"> Yes <input type="radio" name="q56" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>57. Is there a policy for physical security of IT assets? <input type="radio" name="q57" value="Yes"> Yes <input type="radio" name="q57" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>58. Are employees required to use two-factor authentication? <input type="radio" name="q58" value="Yes"> Yes <input type="radio" name="q58" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>59. Is there a plan for managing data breaches? <input type="radio" name="q59" value="Yes"> Yes <input type="radio" name="q59" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>60. Are there guidelines for secure remote work? <input type="radio" name="q60" value="Yes"> Yes <input type="radio" name="q60" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>61. Is there a policy for managing user credentials? <input type="radio" name="q61" value="Yes"> Yes <input type="radio" name="q61" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>62. Are security threats regularly assessed? <input type="radio" name="q62" value="Yes"> Yes <input type="radio" name="q62" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>63. Are data access logs regularly audited? <input type="radio" name="q63" value="Yes"> Yes <input type="radio" name="q63" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>64. Is there a clear data breach notification policy? <input type="radio" name="q64" value="Yes"> Yes <input type="radio" name="q64" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>65. Are there procedures for securing cloud data? <input type="radio" name="q65" value="Yes"> Yes <input type="radio" name="q65" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>66. Are there physical security measures for data centers? <input type="radio" name="q66" value="Yes"> Yes <input type="radio" name="q66" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>67. Is there a process for assessing software security? <input type="radio" name="q67" value="Yes"> Yes <input type="radio" name="q67" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>68. Are system configurations regularly reviewed? <input type="radio" name="q68" value="Yes"> Yes <input type="radio" name="q68" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>69. Is there a process for managing software licenses? <input type="radio" name="q69" value="Yes"> Yes <input type="radio" name="q69" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>70. Are employees informed about data privacy regulations? <input type="radio" name="q70" value="Yes"> Yes <input type="radio" name="q70" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>71. Is there a policy for data sharing with third parties? <input type="radio" name="q71" value="Yes"> Yes <input type="radio" name="q71" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>72. Are security assessments part of vendor contracts? <input type="radio" name="q72" value="Yes"> Yes <input type="radio" name="q72" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>73. Is there a formal change management process? <input type="radio" name="q73" value="Yes"> Yes <input type="radio" name="q73" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>74. Are all devices authenticated before accessing the network? <input type="radio" name="q74" value="Yes"> Yes <input type="radio" name="q74" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>75. Is there a plan for responding to natural disasters? <input type="radio" name="q75" value="Yes"> Yes <input type="radio" name="q75" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>76. Are security policies communicated to all employees? <input type="radio" name="q76" value="Yes"> Yes <input type="radio" name="q76" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>77. Is there a security awareness program in place? <input type="radio" name="q77" value="Yes"> Yes <input type="radio" name="q77" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>78. Are there procedures for reporting security vulnerabilities? <input type="radio" name="q78" value="Yes"> Yes <input type="radio" name="q78" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>79. Are network devices monitored for unusual activity? <input type="radio" name="q79" value="Yes"> Yes <input type="radio" name="q79" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>80. Is there a data loss prevention strategy implemented? <input type="radio" name="q80" value="Yes"> Yes <input type="radio" name="q80" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>81. Are security policies regularly reviewed and updated? <input type="radio" name="q81" value="Yes"> Yes <input type="radio" name="q81" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>82. Is there a policy for mobile device management? <input type="radio" name="q82" value="Yes"> Yes <input type="radio" name="q82" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>83. Are there procedures for user termination? <input type="radio" name="q83" value="Yes"> Yes <input type="radio" name="q83" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>84. Are physical access controls enforced for sensitive areas? <input type="radio" name="q84" value="Yes"> Yes <input type="radio" name="q84" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>85. Is there a policy for managing external storage devices? <input type="radio" name="q85" value="Yes"> Yes <input type="radio" name="q85" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>86. Are security measures tested through penetration testing? <input type="radio" name="q86" value="Yes"> Yes <input type="radio" name="q86" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>87. Is there a designated incident response team? <input type="radio" name="q87" value="Yes"> Yes <input type="radio" name="q87" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>88. Are there security policies for remote workers? <input type="radio" name="q88" value="Yes"> Yes <input type="radio" name="q88" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>89. Is there a process for tracking security compliance? <input type="radio" name="q89" value="Yes"> Yes <input type="radio" name="q89" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>90. Are there policies for social engineering awareness? <input type="radio" name="q90" value="Yes"> Yes <input type="radio" name="q90" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>91. Is there a process for handling user data requests? <input type="radio" name="q91" value="Yes"> Yes <input type="radio" name="q91" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>92. Are there security controls for IoT devices? <input type="radio" name="q92" value="Yes"> Yes <input type="radio" name="q92" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>93. Is there a policy for security training for new hires? <input type="radio" name="q93" value="Yes"> Yes <input type="radio" name="q93" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>94. Is there a plan for managing third-party access? <input type="radio" name="q94" value="Yes"> Yes <input type="radio" name="q94" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>95. Are there data classification policies in place? <input type="radio" name="q95" value="Yes"> Yes <input type="radio" name="q95" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>96. Are there protocols for securely disposing of hardware? <input type="radio" name="q96" value="Yes"> Yes <input type="radio" name="q96" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>97. Is there a process for reviewing network traffic? <input type="radio" name="q97" value="Yes"> Yes <input type="radio" name="q97" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>98. Are security roles and responsibilities defined? <input type="radio" name="q98" value="Yes"> Yes <input type="radio" name="q98" value="No"> No</label></div>
+            <div class="divider"></div>
+            <div class="question"><label>99. Is there a policy for secure software updates? <input type="radio" name="q99" value="Yes"> Yes <input type="radio" name="q99" value="No"> No</label></div></div>
+                <div class="divider"></div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+message.txt
+26 KB
